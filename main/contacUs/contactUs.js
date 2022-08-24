@@ -8,10 +8,9 @@ handleClick = () => {
   const email = emailField.value;
   const subject = subField.value;
   const description = descField.value;
+  window.location.href = "thor.html";
+};
 
-  const data = JSON.parse(
-    '{"name":{"firstName":"Amit","lastName":"Yadav"},"email":"yada@gm","subject":"test","description":"sbxcjiasbci"}'
-  );
-
-  console.log(data.name.firstName);
+confirmInput = () => {
+  alert("Hello");
 };
