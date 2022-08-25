@@ -1,30 +1,10 @@
-.thor {
-    background-image: url("/images/699702.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
     text-align: center;
-}
-
-.services {
-    background-image: url("/images/699721.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.contactUs {
-    background-image: url('/images/699723.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-
 }
 
 a {
-    color: aqua;
     text-decoration: none;
     font-size: 60px;
-    padding: 30px 20px 0px 30px;
 }
 
 a:hover {
@@ -34,11 +14,7 @@ a:hover {
 .header {
     background-color: #9933cc;
     color: #ffffff;
-}
-
-.footer_div {
-    padding-left: 0px;
-    padding-right: 0px;
+    font-size: 40px;
 }
 
 .footer {
@@ -46,77 +22,5 @@ a:hover {
     font-size: 15px;
     position: fixed;
     bottom: 0;
-    width: 1905px;
-}
-
-label {
-    background-color: rgb(252, 8, 8);
-    color: black;
-    padding: 10px;
-}
-
-.name {
-    margin-right: 258px;
-}
-
-.email {
-    margin-right: 258px;
-}
-
-.subject {
-    margin-right: 248px;
-}
-
-.description {
-    margin-right: 220px;
-}
-
-div {
-    padding: 25px;
-}
-
-input {
-    background-color: white;
-    width: 300px;
-    padding: 10px;
-    border: none;
-}
-
-input:hover {
-    background-color: rgb(68, 112, 245);
-    border: none;
-}
-
-button {
-    width: 100px;
-    border: none;
-    padding: 15px;
-    border-radius: 20px;
-}
-
-button:hover {
-    background-color: brown;
-    color: red;
-}
-
-form {
-    position: relative;
-    animation: mymove 5s infinite;
-    animation-delay: 2s;
-}
-
-@keyframes mymove {
-    from {
-        right: 0px;
-    }
-
-    to {
-        right: 700px;
-    }
-}
-
-@media (min-width: 50em) and (min-height: 60em) {
-    nav {
-        column-count: 2;
-    }
+    width: 100%;
 }
