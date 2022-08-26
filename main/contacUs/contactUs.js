@@ -8,9 +8,9 @@ handleClick = () => {
   const email = emailField.value;
   const subject = subField.value;
   const description = descField.value;
-  window.location.href = "thor.html";
+  window.location.href = "/main/thor/thor.html";
 };
 
 confirmInput = () => {
-  alert("Hello");
+  alert("Do you want to go to the home page?");
 };

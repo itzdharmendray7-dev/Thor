@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -15,21 +17,36 @@ a:hover {
     background-color: #9933cc;
     color: #ffffff;
     font-size: 40px;
+    width: 100%;
 }
 
 .footer {
     background-color: #54ccf4;
-    /* margin-bottom: 0; */
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
 .name {
-    margin-bottom: 10px;
+    padding-right: 260px;
+}
+
+.email {
+    padding-right: 258px;
+}
+
+.subject {
+    padding-right: 250px;
+}
+
+.description {
+    padding-right: 222px;
 }
 
 input {
     width: 300px;
-    /* padding: 10px; */
+    padding: 5px;
+    margin-bottom: 25px;
 }
 
 button {
