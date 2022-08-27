@@ -6,22 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thor</title>
+    <!-- <link rel="stylesheet" href="/main/check/check.css"> -->
     <link rel="stylesheet" href="/main/thor/thor.css">
     <link rel="stylesheet" href="/main/reset.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Thor</h1>
-        <nav>
-            <a href="/main/services/services.html">Services</a>
-            <a href="/main/contacUs/contactUs.html">Contact Us</a>
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">Thor</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="/main/home/home.html">Home</a></li>
+                <li><a href="/main/contacUs/contactUs.html">ContactUs</a></li>
+            </ul>
         </nav>
-    </div>
-
-    <div>
-        <h1>Hello</h1>
-    </div>
+    </header>
 
     <div class="footer">
         <footer>
@@ -49,8 +53,7 @@
             <p>Terms of Use Privacy Policy</p>
             <p>&copy; 2022 Thor</p>
         </footer>
-    </div>
-    <script src="/main/thor/thor.js"></script>
+        <script src="/main/thor/thor.js"></script>
 </body>
 
 </html>

@@ -7,10 +7,10 @@
 
 body {
     background-color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
-    color: blueviolet;
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ ul {
 
 /* Header */
 .header {
-    background-color: yellow;
+    background-color: black;
     box-shadow: 1px 1px 5px 0px gray;
     position: sticky;
     top: 0;
@@ -30,6 +30,7 @@ ul {
 /* Logo */
 .logo {
     display: inline-block;
+    color: white;
     font-size: 60px;
     margin-left: 10px;
 }
@@ -39,15 +40,14 @@ ul {
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: yellow;
+    background-color: black;
     overflow: hidden;
 }
 
 .menu a {
     display: block;
     padding: 30px;
-    color: green;
-    font-size: 20px;
+    color: white;
 }
 
 .menu a:hover {
@@ -69,7 +69,7 @@ ul {
 /* Style label tag */
 
 .hamb-line {
-    background: goldenrod;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -81,7 +81,7 @@ ul {
 
 .hamb-line::before,
 .hamb-line::after {
-    background: goldenrod;
+    background: white;
     content: '';
     display: block;
     height: 100%;
@@ -121,16 +121,6 @@ ul {
 .side-menu:checked~.hamb .hamb-line::after {
     transform: rotate(45deg);
     top: 0;
-}
-
-.footer {
-    background-color: #54ccf4;
-    text-align: center;
-    font-size: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
 }
 
 /* Responsiveness */
