@@ -7,8 +7,9 @@
 
 body {
     background-color: white;
-    background-image: url(/main/images/699702.jpg);
+    background-image: url(/main/images/699703.jpg);
     background-repeat: no-repeat;
+    background-size: auto;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
 }
 
 form {
-    text-align: center;
+    text-align: left;
     padding-top: 150px;
 }
 
@@ -56,10 +57,11 @@ form {
 }
 
 input {
-    width: 550px;
-    padding: 20px;
+    width: 50%;
+    padding: 10px;
     margin-bottom: 25px;
     border-color: rebeccapurple;
+
 }
 
 label {
@@ -67,7 +69,7 @@ label {
 }
 
 button {
-    width: 125px;
+    width: 75px;
     margin-top: 10px;
     padding: 10px;
     border-radius: 30px;
@@ -86,5 +88,26 @@ footer {
 @media (min-width : 768px) {
     form {
         text-align: center;
+    }
+
+    input {
+        width: 550px;
+        padding: 20px;
+        margin-bottom: 25px;
+        border-color: rebeccapurple;
+
+    }
+
+    body {
+        background-image: url(/main/images/699703.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    button {
+        width: 125px;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 30px;
     }
 }
