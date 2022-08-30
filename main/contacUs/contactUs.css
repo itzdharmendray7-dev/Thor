@@ -7,10 +7,13 @@
 
 body {
     background-color: white;
+    background-image: url(/main/images/699702.jpg);
+    background-repeat: no-repeat;
 }
 
 a {
-    color: blueviolet;
+    color: khaki;
+    padding-left: 5px;
     text-decoration: none;
 }
 
@@ -18,13 +21,14 @@ a {
 .header {
     background-color: yellow;
     box-shadow: 1px 1px 5px 0px gray;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
 /* Logo */
 .logo {
+    color: brown;
     display: inline-block;
     font-size: 60px;
     margin-left: 10px;
@@ -32,36 +36,34 @@ a {
 
 form {
     text-align: center;
-    padding-top: 200px;
-    height: auto;
+    padding-top: 150px;
 }
 
 .name {
-    padding-right: 260px;
+    padding-right: 510px;
 }
 
 .email {
-    padding-right: 258px;
+    padding-right: 510px;
 }
 
 .subject {
-    padding-right: 250px;
+    padding-right: 500px;
 }
 
 .description {
-    padding-right: 222px;
-}
-
-form {
-    margin-bottom: 30px;
-    width: auto;
-    height: auto;
+    padding-right: 470px;
 }
 
 input {
-    width: 450px;
-    padding: 5px;
+    width: 550px;
+    padding: 20px;
     margin-bottom: 25px;
+    border-color: rebeccapurple;
+}
+
+label {
+    color: rgb(0, 255, 251);
 }
 
 button {
@@ -71,18 +73,18 @@ button {
     border-radius: 30px;
 }
 
-input,
-button,
-textarea {
-    font: inherit;
-}
-
 footer {
-    background-color: #54ccf4;
+    background-color: darkgoldenrod;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 5px;
+}
+
+@media (min-width : 768px) {
+    form {
+        text-align: center;
+    }
 }

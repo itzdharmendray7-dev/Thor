@@ -7,10 +7,14 @@
 
 body {
     background-color: white;
+    background-image: url(/main/images/699702.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
-    color: blueviolet;
+    color: khaki;
+    padding-left: 5px;
     text-decoration: none;
 }
 
@@ -22,13 +26,14 @@ ul {
 .header {
     background-color: yellow;
     box-shadow: 1px 1px 5px 0px gray;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
 /* Logo */
 .logo {
+    color: brown;
     display: inline-block;
     font-size: 60px;
     margin-left: 10px;
@@ -123,10 +128,10 @@ ul {
     top: 0;
 }
 
-.footer {
-    background-color: #54ccf4;
+footer {
+    background-color: darkgoldenrod;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -143,6 +148,13 @@ ul {
         width: fit-content;
     }
 
+    body {
+        background-color: aqua;
+        padding-bottom: 5px;
+        background-image: url(/main/images/699724.jpg);
+        background-size: cover;
+    }
+
     .menu li {
         float: left;
     }
@@ -150,7 +162,6 @@ ul {
     .menu a:hover {
         background-color: transparent;
         color: gray;
-
     }
 
     .hamb {
