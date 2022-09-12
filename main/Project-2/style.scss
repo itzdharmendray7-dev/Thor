@@ -1,0 +1,78 @@
+$gap: 4vh;
+$padding: 4vh;
+$color: #48cae4;
+
+$bp: (
+  mobile: 480px,
+  tablet: 768,
+  desktop: 1440px,
+);
+
+@mixin query($display) {
+  @each $key, $value in $bp {
+    @if ($display == $key) {
+      @media (max-width: $value) {
+        @contant;
+      }
+    }
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 45px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+  border: 1vh solid $color;
+  gap: $gap;
+}
+
+[class^="row-"] {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+[class^="block-"] {
+  display: flex;
+  flex-direction: row;
+  height: (100vh - 2vh - $gap * 2 - $padding * 2) / 3;
+  gap: $gap;
+
+  @include query(mobile) {
+    flex-direction: column;
+    height: 500px;
+  }
+}
+
+[class^="box-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: (100%) / 3;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #c1c1c1;
+}
+
+@media (max-width: 650px) {
+  [class^="row-"] {
+    flex-direction: column;
+  }
+
+  [class^="box-"] {
+    width: 100%;
+  }
+}
