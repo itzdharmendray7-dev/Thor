@@ -12,21 +12,42 @@
 
 <style>
     html {
+        text-align: center;
         font-size: 20px;
     }
 
     .container {
         font-size: 10px;
         position: relative;
-        left: 50px;
     }
 
     #first {
-        font-size: 3em;
+        font-size: 1rem;
     }
 
     #second {
+        font-size: 2rem;
+    }
+
+    #third {
         font-size: 3rem;
+    }
+
+    .box {
+        opacity: 0.6;
+    }
+
+    .one {
+        background-color: antiquewhite;
+        row-gap: 20px;
+    }
+
+    .two {
+        background-color: blueviolet;
+    }
+
+    .three {
+        background-color: greenyellow;
     }
 </style>
 
@@ -55,6 +76,16 @@
         <h1 id="first">First</h1>
         <h1 id="second">Second</h1>
         <h1 id="third">Third</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="box">I am a box with opacity</div>
+    </div>
+
+    <div class="wrapper">
+        <div class="box one">antiqwhite</div>
+        <div class="box two">blueviolet</div>
+        <div class="box three">greenyellow</div>
     </div>
 </body>
 
